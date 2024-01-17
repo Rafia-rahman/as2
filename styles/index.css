@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+{
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+}
+.orange{
+    color: #FF5400;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.one-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 140px;
+}
+.orange {
+    font-weight: 700;
+    color: #FF5400;
+
+}
+.matha {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: 131318;
+}
+.one-banner > ul {
+    display: flex;
+}
+.one-banner li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.one-banner li a {
+    color: #424247;
+    text-decoration: none;
+}
