@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-{
+    {
     font-family: 'Inter', sans-serif;
 
     font-family: 'Mulish', sans-serif;
 }
-.orange{
+
+.orange {
     color: #FF5400;
 }
 
@@ -20,25 +21,30 @@ header {
     align-items: center;
     margin: 50px 140px;
 }
+
 .orange {
     font-weight: 700;
     color: #FF5400;
 
 }
+
 .matha {
     font-size: 2.2rem;
     font-weight: 800;
     color: 131318;
 }
-.one-banner > ul {
+
+.one-banner>ul {
     display: flex;
 }
+
 .one-banner li {
     list-style: none;
     margin-right: 30px;
     font-weight: 400;
     font-size: 1rem;
 }
+
 .one-banner li a {
     color: #424247;
     text-decoration: none;
@@ -79,6 +85,7 @@ header {
     gap: 22px;
 
 }
+
 main {
     max-width: 1000px;
     margin: 100px auto;
@@ -136,3 +143,246 @@ main {
     margin-right: 16rem;
 
 }
+
+.two-container {
+    text-align: center;
+    margin-top: 6.2rem;
+}
+
+.tip {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+
+.top {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bx2 {
+    border-radius: 16px;
+    border: 1px solid rgba(138, 77, 8, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.bx2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.bx3 {
+    border-radius: 16px;
+    border: 2px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 56px 250px 100px;
+    padding: 40px;
+}
+
+.htl {
+    width: 50px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.hotel {
+    padding-right: 300px;
+}
+
+.map {
+    padding-right: 300px;
+
+}
+
+.map {
+    width: 50px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.price {
+    padding-right: 300px;
+    width: 50px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.bx {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 40px 40px;
+}
+
+.gbx2 {
+    justify-content: center;
+    padding: 24px;
+}
+
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.news {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 60px 20px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.btn-primary2 {
+    border-radius: 4px;
+    background: #FF5400;
+    border-style: none;
+    color: #FFF;
+    padding: 14px 28px;
+    width: 210px;
+    height: 40px;
+
+}
+
+.img8 {
+    border-radius: 16px;
+}
+
+.input2 {
+    height: 40px;
+    width: 200px;
+}
+
+.inptu1 {
+    height: 40px;
+    width: 200px;
+}
+
+.oo {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 260px;
+    left: 350px;
+    transform: rotate(-40deg);
+
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+
+
+/* media query for mobile devices */
+
+@media screen and (max-width: 600px) {
+    .head-sec {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .banner- ul {
+        flex-direction: column;
+    }
+
+    h2 {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .bnr {
+        padding: 2px;
+        max-width: 100%;
+
+    }
+
+    .one {
+        flex-direction: column;
+    }
+
+    .res {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .two-images {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .body {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .bx {
+        flex-direction: column;
+    }
+
+    .gbx2 {
+        flex-direction: column;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .bx3 {
+        margin: 0;
+    }
+
+    .yes {
+        width: 769px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 106px;
+        font-weight: 800;
+        line-height: 56px;
+
+    }
+
+    .yey {
+        width: 174.322px;
+        height: 24px;
+        flex-shrink: 0;
+        background: rgba(19, 19, 24, 0.05);
+        width: 1440px;
+        height: 502px;
+        flex-shrink: 0;
+
+
+
+    }
